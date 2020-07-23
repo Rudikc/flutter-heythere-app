@@ -27,7 +27,17 @@ class _MyAppState extends State<MyApp> {
         child: Center(
           child: Text(
             "Hey there",
-            style: TextStyle(color: mainTextColor, fontSize: 64.0),
+            style: TextStyle(
+                color: mainTextColor,
+                fontSize: 90.0,
+                fontFamily: 'DancingScript',
+                shadows: <Shadow>[
+                  Shadow(
+                    offset: Offset(3.0, 3.0),
+                    blurRadius: 3.0,
+                    color: Color(0xFF000000),
+                  ),
+                ]),
           ),
         ),
       ),
