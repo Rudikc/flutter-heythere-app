@@ -33,9 +33,9 @@ class _MyAppState extends State<MyApp> {
                 fontFamily: 'DancingScript',
                 shadows: <Shadow>[
                   Shadow(
-                    offset: Offset(3.0, 3.0),
+                    offset: Offset(2.0, 2.0),
                     blurRadius: 3.0,
-                    color: Color(0xFF000000),
+                    color: Colors.black,
                   ),
                 ]),
           ),
